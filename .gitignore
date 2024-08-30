@@ -1,2 +1,3 @@
 .DS_Store
-grammars
+grammars/move
+grammars/move.wasm
