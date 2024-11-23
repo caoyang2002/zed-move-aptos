@@ -1,11 +1,12 @@
 # 语言元数据
-name = "Move"
+name = "move"
 grammar = "move"
 path_suffixes = ["move"]
+line_comments = ["//", "///"]
 autoclose_before = ";:.,=}])>` \n\t\""
 brackets = [
     { start = "[", end = "]", close = true, newline = true },
     { start = "(", end = ")", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = true },
 ]
 tab_size = 2
-line_comments = ["//", "///"]

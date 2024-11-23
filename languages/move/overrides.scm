@@ -1,2 +1,2 @@
-; 语法覆盖
-(string) @string
+; ; 语法覆盖
+; (string) @string
