@@ -1,4 +1,3 @@
-# 语言元数据
 name = "move"
 grammar = "move"
 path_suffixes = ["move"]
