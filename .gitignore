@@ -1,7 +1,5 @@
 .DS_Store
-grammars/move
-grammars/move.wasm
-test
-/grammars
-/test
+grammars
 .ropeproject
+target
+*.wasm
