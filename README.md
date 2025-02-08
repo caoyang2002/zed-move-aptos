@@ -2,6 +2,12 @@
 
 Extension for Zed that adds Move on Aptos syntax highlighting
 
+# TIP
+
+Sorry, this extension only implements syntax highlighting and does not implement code completion, as there are no open-source solutions available for Aptos Move code completion.
+
+Sorry again.
+
 ## zed plugin
 
 https://github.com/caoyang2002/zed-move-aptos
@@ -51,3 +57,27 @@ tree sitter: https://tree-sitter.github.io/tree-sitter/playground#about
 >
 > tree-sitter build --wasm
 > ```
+
+
+# ERROR
+
+check log
+
+```bash
+cat ~/Library/Logs/Zed/Zed.log
+```
+
+1. `Error: failed to install dev extension`
+
+```bash
+# Mac OS:
+cd ~/Library/Application\ Support/Zed/extensions
+
+# Linux
+cd ~/.local/share/zed/extensions
+```
+
+
+1. delete `/target` `extension.wasm` `/grammars`
+2. restart
+3. reinstall
