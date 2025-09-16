@@ -12,4 +12,4 @@ language = "Move"
 
 [grammars.move]
 repository = "https://github.com/caoyang2002/tree-sitter-move-aptos"
-commit = "ce22921df73ef24ecc2d3d3f2d41547e5c74638f"
+commit = "bb6fdaaef901fc331731340cc7e4f167311fe5d6"
