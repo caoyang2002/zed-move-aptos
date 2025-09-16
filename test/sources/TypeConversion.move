@@ -6,5 +6,7 @@ script {
         let d = (2u8 as u64)
         let e = (1 + 3 as u128)
         let f = (4/2 + 12345 as u256)
+
+        let () = for (i in 0..10) {};
     }
 }

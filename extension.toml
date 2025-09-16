@@ -1,6 +1,6 @@
 id = "move-aptos"
 name = "move-aptos"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["simons <reggiesimons2cy@gmail.com>"]
 description = "Move on Aptos language support for Zed"
@@ -12,13 +12,4 @@ language = "Move"
 
 [grammars.move]
 repository = "https://github.com/caoyang2002/tree-sitter-move-aptos"
-# commit = "00c8ceb0dd9f7559908802e344f484057fd61cd9" # a
-commit = "f71fe313c7b56d7a22034b00d5e495a3dbf74029" # s
-
-# [grammars.move]
-# repository = "https://github.com/aptos-labs/tree-sitter-move-on-aptos"
-# commit = "4ef4e64be8c3f222c311af50b6dc064d808c1890"
-
-# [grammars.move]
-# repository = "https://github.com/tzakian/tree-sitter-move"
-# commit = "f5b37f63569f69dfbe7a9950527786d2f6b1d35c"
+commit = "ce22921df73ef24ecc2d3d3f2d41547e5c74638f"
